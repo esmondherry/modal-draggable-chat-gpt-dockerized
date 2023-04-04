@@ -16,4 +16,7 @@ The backend is written in Python flask with `/chat` and `/` routes to process us
 2. Replace the openai_api with your OpenAI API key inside of `app.py` file.
 3. Run `flask --app app run --host 0.0.0.0 --debug` from the main directory of this project. 
 
-This project will be dockerized in the future.
+OR
+
+1. Replace the openai_api with your OpenAI API key inside of `app.py` file.
+2. Run `docker compose up` from the main directory of this project. 
